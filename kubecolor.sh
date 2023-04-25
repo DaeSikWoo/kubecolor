@@ -4,6 +4,7 @@ tar -xzvf kubecolor_0.0.25_Linux_x86_64.tar.gz &&
 
 sudo mv kubecolor /usr/local/bin/ &&
 
-echo "alias k='kubecolor'" >> ~/.bashrc &&
+echo "alias k='kubecolor'" >> ~/.bashrc
+echo "alias kubectl='kubecolor'" >> ~/.bashrc
 
 source ~/.bashrc
